@@ -9,4 +9,6 @@ code03_CWT_Creator.m converts DMDc modes to images
 
 code04_CWT_DCNN_v1.m trains DCNN model
 
-runSimulation_v1.m can be modified to update simulation parameters
+runSimulation_v1.m can be modified to update simulation parameters, and the Simulink model model\_FOPTD\_DMD\_3Scenario\_v1.slx can be modified to obtain different cases.
+
+
