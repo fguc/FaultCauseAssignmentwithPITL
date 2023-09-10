@@ -4,7 +4,7 @@ close all
 
 % Reference inputs
 parentFolder = pwd;
-childFolder = '2021-04-02-20-45-30_References_Rand1';
+childFolder = '2023-09-10-08-19-30_References_Rand1';
 caseFolder = 'Bias3Scenario';
 root = fullfile(parentFolder,childFolder);
 load([root '/refSet_ts.mat']);
@@ -17,7 +17,7 @@ simDef = {'Nominal'...
 simInputs = diag([0 0.2 0.2]);
 
 A = 1:1:length(simDef);
-B = repmat(A,1,500);
+B = repmat(A,1,10);
 
 sim{length(B)} = {};
 i = length(refSet_ts); j = length(B);
